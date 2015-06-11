@@ -1,0 +1,2 @@
+include ':anySoftKeyboardApi'
+include ':swissLanguagePack'

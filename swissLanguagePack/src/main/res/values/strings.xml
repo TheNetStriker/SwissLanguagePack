@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnySoftKeyboard - Swiss Language Pack</string>
+    <string name="keyboard_name">Swiss German</string>
+    <string name="dictionary_name">Swiss</string>
+    <string name="keyboard_layouts_label">AnySoftKeyboard - Swiss Language Pack</string>
+    <string name="keyboard_layout_swiss_german_label">Swiss German NEW</string>
+    <string name="extension_kbd_bottom_alt_nosmilies">Alternate (no mic and no smilies)</string>
+    <string name="extension_kbd_bottom_alt_nosmilies_2">Alternate 2 (Question and exclamation mark)</string>
+</resources>

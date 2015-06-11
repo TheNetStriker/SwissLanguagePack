@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionKeyboards>
+    <ExtensionKeyboard
+	    id="79473e41-e710-41d1-8e59-17981bb355cd"
+	    nameResId="@string/extension_kbd_bottom_alt_nosmilies"
+	    extensionKeyboardResId="@xml/ext_kbd_bottom_row_alt_nosmilies"
+	    extensionKeyboardType="@integer/extension_keyboard_type_bottom_row"
+	    description=""
+	    />
+	<ExtensionKeyboard
+	    id="d4acd6a9-8cf8-4eec-9493-c11c2ce06146"
+	    nameResId="@string/extension_kbd_bottom_alt_nosmilies_2"
+	    extensionKeyboardResId="@xml/ext_kbd_bottom_row_alt_nosmilies_2"
+	    extensionKeyboardType="@integer/extension_keyboard_type_bottom_row"
+	    description=""
+	    />
+</ExtensionKeyboards>

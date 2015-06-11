@@ -1,0 +1,95 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AnySoftKeyboard-Api:
+* .cvsignore
+* CVS\
+* CVS\Entries
+* CVS\Repository
+* CVS\Root
+* CVS\Template
+From SwissLanguagePack:
+* .cvsignore
+* .gitignore
+* CVS\
+* CVS\Entries
+* CVS\Repository
+* CVS\Root
+* CVS\Template
+* README.md
+* build.xml
+* custom_rules.xml
+* key.store
+* proguard-project.txt
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AnySoftKeyboard-Api:
+* AndroidManifest.xml => anySoftKeyboardApi\src\main\AndroidManifest.xml
+* res\ => anySoftKeyboardApi\src\main\res\
+* src\ => anySoftKeyboardApi\src\main\java\
+* src\com\anysoftkeyboard\api\CVS\Entries => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\api\CVS\Entries
+* src\com\anysoftkeyboard\api\CVS\Repository => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\api\CVS\Repository
+* src\com\anysoftkeyboard\api\CVS\Root => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\api\CVS\Root
+* src\com\anysoftkeyboard\api\CVS\Template => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\api\CVS\Template
+* src\com\anysoftkeyboard\CVS\Entries => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\CVS\Entries
+* src\com\anysoftkeyboard\CVS\Repository => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\CVS\Repository
+* src\com\anysoftkeyboard\CVS\Root => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\CVS\Root
+* src\com\anysoftkeyboard\CVS\Template => anySoftKeyboardApi\src\main\resources\com\anysoftkeyboard\CVS\Template
+* src\com\CVS\Entries => anySoftKeyboardApi\src\main\resources\com\CVS\Entries
+* src\com\CVS\Repository => anySoftKeyboardApi\src\main\resources\com\CVS\Repository
+* src\com\CVS\Root => anySoftKeyboardApi\src\main\resources\com\CVS\Root
+* src\com\CVS\Template => anySoftKeyboardApi\src\main\resources\com\CVS\Template
+* src\CVS\Entries => anySoftKeyboardApi\src\main\resources\CVS\Entries
+* src\CVS\Repository => anySoftKeyboardApi\src\main\resources\CVS\Repository
+* src\CVS\Root => anySoftKeyboardApi\src\main\resources\CVS\Root
+* src\CVS\Template => anySoftKeyboardApi\src\main\resources\CVS\Template
+In SwissLanguagePack:
+* AndroidManifest.xml => swissLanguagePack\src\main\AndroidManifest.xml
+* res\ => swissLanguagePack\src\main\res\
+* src\ => swissLanguagePack\src\main\java\
+* src\ch\CVS\Entries => swissLanguagePack\src\main\resources\ch\CVS\Entries
+* src\ch\CVS\Repository => swissLanguagePack\src\main\resources\ch\CVS\Repository
+* src\ch\CVS\Root => swissLanguagePack\src\main\resources\ch\CVS\Root
+* src\ch\CVS\Template => swissLanguagePack\src\main\resources\ch\CVS\Template
+* src\ch\masshardt\anysoftkeyboard\CVS\Entries => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\CVS\Entries
+* src\ch\masshardt\anysoftkeyboard\CVS\Repository => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\CVS\Repository
+* src\ch\masshardt\anysoftkeyboard\CVS\Root => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\CVS\Root
+* src\ch\masshardt\anysoftkeyboard\CVS\Template => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\CVS\Template
+* src\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Entries => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Entries
+* src\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Repository => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Repository
+* src\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Root => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Root
+* src\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Template => swissLanguagePack\src\main\resources\ch\masshardt\anysoftkeyboard\swisslanguagepack\CVS\Template
+* src\ch\masshardt\CVS\Entries => swissLanguagePack\src\main\resources\ch\masshardt\CVS\Entries
+* src\ch\masshardt\CVS\Repository => swissLanguagePack\src\main\resources\ch\masshardt\CVS\Repository
+* src\ch\masshardt\CVS\Root => swissLanguagePack\src\main\resources\ch\masshardt\CVS\Root
+* src\ch\masshardt\CVS\Template => swissLanguagePack\src\main\resources\ch\masshardt\CVS\Template
+* src\CVS\Entries => swissLanguagePack\src\main\resources\CVS\Entries
+* src\CVS\Repository => swissLanguagePack\src\main\resources\CVS\Repository
+* src\CVS\Root => swissLanguagePack\src\main\resources\CVS\Root
+* src\CVS\Template => swissLanguagePack\src\main\resources\CVS\Template
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

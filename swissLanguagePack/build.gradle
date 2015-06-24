@@ -8,6 +8,8 @@ android {
         applicationId "ch.masshardt.anysoftkeyboard.swisslanguagepack"
         minSdkVersion 16
         targetSdkVersion 22
+        versionCode 5
+        versionName "1.4"
     }
 
     buildTypes {

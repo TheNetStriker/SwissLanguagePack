@@ -7,9 +7,9 @@
         android:label="@string/app_name"
         android:allowBackup="true">
         
-    	<receiver android:exported="true"
-    	    android:name="ch.masshardt.anysoftkeyboard.swisslanguagepack.PackBroadcastReceiver">
-    		<intent-filter> 
+        <receiver android:exported="true"
+            android:name="ch.masshardt.anysoftkeyboard.swisslanguagepack.PackBroadcastReceiver">
+            <intent-filter>
                 <action android:name="com.menny.android.anysoftkeyboard.KEYBOARD" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.ALTERNATIVE" />
@@ -23,9 +23,9 @@
             </intent-filter>
             <meta-data android:name="com.menny.android.anysoftkeyboard.keyboards" android:resource="@xml/keyboards" />
             <meta-data android:name="com.anysoftkeyboard.plugindata.extensionkeyboard" android:resource="@xml/extension_keyboards" />
-    	</receiver>
-    	
-    	<receiver android:label="@string/keyboard_layouts_label" android:name=".InputDeviceReceiver">
+        </receiver>
+
+        <receiver android:label="@string/keyboard_layouts_label" android:name=".InputDeviceReceiver">
             <intent-filter>
                 <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS"/>
             </intent-filter>

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SwissLanguagePack.iml" filepath="$PROJECT_DIR$/SwissLanguagePack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/anySoftKeyboardApi/anySoftKeyboardApi.iml" filepath="$PROJECT_DIR$/anySoftKeyboardApi/anySoftKeyboardApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/swissLanguagePack/swissLanguagePack.iml" filepath="$PROJECT_DIR$/swissLanguagePack/swissLanguagePack.iml" />
     </modules>
   </component>

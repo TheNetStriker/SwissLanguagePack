@@ -1,0 +1,1 @@
+Copyright [SwissLanguagePack] [David Masshardt]

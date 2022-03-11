@@ -7,7 +7,8 @@
         android:label="@string/app_name"
         android:allowBackup="true">
         
-        <receiver android:exported="true"
+        <receiver
+            android:exported="true"
             android:name="ch.masshardt.anysoftkeyboard.swisslanguagepack.PackBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.menny.android.anysoftkeyboard.KEYBOARD" />
@@ -25,7 +26,10 @@
             <meta-data android:name="com.anysoftkeyboard.plugindata.extensionkeyboard" android:resource="@xml/extension_keyboards" />
         </receiver>
 
-        <receiver android:label="@string/keyboard_layouts_label" android:name=".InputDeviceReceiver">
+        <receiver
+            android:exported="true"
+            android:label="@string/keyboard_layouts_label"
+            android:name=".InputDeviceReceiver">
             <intent-filter>
                 <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS"/>
             </intent-filter>

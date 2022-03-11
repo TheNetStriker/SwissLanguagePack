@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion '29.0.2'
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "ch.masshardt.anysoftkeyboard.swisslanguagepack"
         minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 11
-        versionName "1.5.5"
+        targetSdkVersion 31
+        versionCode 12
+        versionName "1.5.6"
     }
 
     buildTypes {

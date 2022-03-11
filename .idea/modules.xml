@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SwissLanguagePack.iml" filepath="$PROJECT_DIR$/SwissLanguagePack.iml" group="SwissLanguagePack" />
-      <module fileurl="file://$PROJECT_DIR$/swissLanguagePack/swissLanguagePack.iml" filepath="$PROJECT_DIR$/swissLanguagePack/swissLanguagePack.iml" group="SwissLanguagePack/swissLanguagePack" />
+      <module fileurl="file://$PROJECT_DIR$/SwissLanguagePack.iml" filepath="$PROJECT_DIR$/SwissLanguagePack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swissLanguagePack/SwissLanguagePack.swissLanguagePack.iml" filepath="$PROJECT_DIR$/.idea/modules/swissLanguagePack/SwissLanguagePack.swissLanguagePack.iml" />
     </modules>
   </component>
 </project>

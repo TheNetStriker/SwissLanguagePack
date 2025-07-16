@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Keyboard
-    android:keyWidth="10.000002%p"
-    android:keyHeight="@dimen/key_height"
-    android:horizontalGap="0.0px"
-    android:verticalGap="0.0px"
-  	xmlns:android="http://schemas.android.com/apk/res/android">
-    <Row android:keyWidth="9.089994%p">
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p">
+    <Row android:keyWidth="9%p">
         <Key android:codes="113" android:popupCharacters="1" android:keyEdgeFlags="left" android:keyLabel="q" />
         <Key android:codes="119" android:popupCharacters="2" android:keyLabel="w"/>
         <Key android:codes="101" android:popupCharacters="3êë€" android:keyLabel="e" />
@@ -18,7 +14,7 @@
         <Key android:codes="112" android:popupCharacters="0" android:keyLabel="p" />
         <Key android:codes="232" android:popupCharacters="ü" android:keyEdgeFlags="right" android:keyLabel="è" />
     </Row>
-    <Row android:keyWidth="9.089994%p">
+    <Row android:keyWidth="9%p">
         <Key android:codes="97" android:popupCharacters="âáäã!" android:keyEdgeFlags="left" android:keyLabel="a" />
         <Key android:codes="115" android:popupCharacters="\u0040" android:keyLabel="s" />
         <Key android:codes="100" android:popupCharacters="#" android:keyLabel="d" />
